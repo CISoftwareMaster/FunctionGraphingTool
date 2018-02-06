@@ -205,7 +205,7 @@ class Graphing(QMainWindow):
                 # insert this point to the list
                 points.append(QPointF(x, y))
         except:
-            QMessageBox.warning(self, "Error", "There was a problem resolving ythe function...")
+            QMessageBox.warning(self, "Error", "There was a problem resolving your function...")
             return
 
         # update graph
